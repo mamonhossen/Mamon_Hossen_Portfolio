@@ -32,7 +32,7 @@ color:#00adb5;
 }
 
 nav ul{
-display:flex;
+display:flex; /* default ul is vertical but flex for horizontal হয় */
 list-style:none;
 }
 
@@ -40,7 +40,7 @@ nav ul li{
 margin-left:25px;
 }
 
-nav ul li a{
+nav ul li a{ 
 color:white;
 text-decoration:none;
 transition:0.3s;
@@ -56,36 +56,36 @@ color:#b50070;
 
 .hero{
 
-display:flex;
+display:flex;  /* padding and border are included in element width and height */
 justify-content:space-between;
 align-items:center;
 
 padding:80px;
 
-background:#f4f4f4;
+background:#f4f4f4; /* background color of hero section */
 
 }
 
-.hero-text{
-max-width:500px;
+.hero-text{ /* container for hero text */
+max-width:500px; /* maximum width of hero text container */
 }
 
-.hero-text h1{
+.hero-text h1{ /* main heading in hero section */
 font-size:45px;
 margin-bottom:10px;
 }
 
-.hero-text span{
+.hero-text span{ /* span element inside hero text h1 */
 color:#00adb5;
 }
 
-.hero-text h3{
-margin-bottom:20px;
+.hero-text h3{ /* subheading in hero section */
+margin-bottom:20px; /* space below the subheading */
 }
 
-.hero-text p{
+.hero-text p{ /* paragraph in hero section */
 margin-bottom:25px;
-line-height:1.6;
+line-height:1.6; /* line height for better readability */
 }
 
 
@@ -93,17 +93,17 @@ line-height:1.6;
 
 .btn{
 
-background:linear-gradient(45deg,#00adb5,#007b80);
+background:linear-gradient(45deg,#00adb5,#007b80); /* background color of button with gradient effect */
 
 color:white;
 
 padding:12px 25px;
 
-text-decoration:none;
+text-decoration:none; /* remove underline from button text */
 
-border-radius:5px;
+border-radius:5px; /* rounded corners for button */
 
-transition:0.3s;
+transition:0.3s; /* smooth transition for hover effect */
 
 }
 
@@ -116,11 +116,11 @@ transform:scale(1.1);
 
 /* Profile Image */
 
-.hero-image img{
+.hero-image img{ /* profile image in hero section */
 
 width:260px;
 
-border-radius:50%;
+border-radius:50%; /* circular shape for profile image */
 
 transition:0.5s;
 
@@ -128,7 +128,7 @@ transition:0.5s;
 
 .hero-image img:hover{
 
-transform:rotate(4deg) scale(1.08);
+transform:rotate(4deg) scale(1.08);/* rotate and scale effect on hover for profile image */
 
 }
 
@@ -145,7 +145,7 @@ text-align:center;
 
 /* Skills */
 
-.skills-container{
+.skills-container{ /* container for skill cards in skills section */
 
 display:flex;
 
@@ -157,7 +157,7 @@ margin-top:40px;
 
 }
 
-.skill-card{
+.skill-card{ /* individual skill card styling */
 
 background:rgb(209, 195, 195);
 
@@ -171,7 +171,7 @@ transition:0.3s;
 
 }
 
-.skill-card:hover{
+.skill-card:hover{ /* hover effect for skill cards */
 
 background:#00adb5;
 
@@ -185,7 +185,7 @@ transform:translateY(-10px);
 
 /* Projects */
 
-.projects-container{
+.projects-container{ /* container for project cards in projects section */
 
 display:flex;
 
@@ -219,7 +219,7 @@ margin-bottom:15px;
 
 }
 
-.project-card a{
+.project-card a{ /* link styling for project cards */
 
 display:inline-block;
 
@@ -241,7 +241,7 @@ transform:translateY(-12px);
 
 /* Contact */
 
-.contact{
+.contact{ /* contact section styling */
     text-align:center;
     padding:60px 20px;
     background:linear-gradient(135deg,#335a8d,#a19494);
@@ -273,7 +273,7 @@ transform:translateY(-12px);
     box-shadow:0 10px 25px rgba(0,0,0,0.5);
 }
 
-.contact-card .icon{
+.contact-card .icon{ /* icon styling in contact cards */
     font-size:40px;
     margin-bottom:10px;
 }
@@ -282,7 +282,7 @@ transform:translateY(-12px);
     margin-bottom:10px;
 }
 
-.contact-card p{
+.contact-card p{ /* description text in contact cards */
     font-size:14px;
     color:#ccc;
 }
@@ -291,8 +291,7 @@ transform:translateY(-12px);
 
 /* Footer */
 
-footer{
-
+footer{ /* footer styling */
 background:#111;
 
 color:white;
