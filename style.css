@@ -160,7 +160,7 @@ margin-top:40px;
 
 .skill-card{ /* individual skill card styling */
 
-background:rgb(209, 195, 195);
+background:rgb(181, 163, 224);
 
 padding:25px;
 
@@ -270,8 +270,8 @@ transform:translateY(-12px);
 
 .contact-card:hover{
     transform:translateY(-10px) scale(1.05);
-    background:rgba(0,173,181,0.2);
-    box-shadow:0 10px 25px rgba(0,0,0,0.5);
+    background:rgba(89, 74, 224, 0.2);
+    box-shadow:0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .contact-card .icon{ /* icon styling in contact cards */
