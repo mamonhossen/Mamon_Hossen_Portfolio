@@ -70,7 +70,7 @@ If you like this project, please "⭐" star the repository on GitHub!
 
 License
 
-This project is open-source and free to use..
+This project is open-source and free to use.
 
 
 
