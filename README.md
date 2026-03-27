@@ -66,11 +66,11 @@ Explore AI & automation
 Get remote job opportunities
 Support: 
 
-If you like this project, please ⭐ star the repository on GitHub!
+If you like this project, please "⭐" star the repository on GitHub!
 
 License
 
-This project is open-source and free to use.
+This project is open-source and free to use
 
 
 
